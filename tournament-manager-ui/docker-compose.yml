@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  angular-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: angular_app
+    ports:
+      - "80:80"
+    networks:
+      - internal_net
+    restart: unless-stopped
+
+networks:
+  internal_net:
+    driver: bridge

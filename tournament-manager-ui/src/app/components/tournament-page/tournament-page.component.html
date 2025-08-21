@@ -1,0 +1,7 @@
+
+@if (loadedData.length > 0) {
+    @for (item of loadedData; track $index) {
+        <app-stage-viewer [bracketsId]="'tournament-' + $index" [stageData]="item"></app-stage-viewer>
+    }
+    <br>
+}
