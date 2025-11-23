@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "51ab1ad9-e129-413e-a252-a548f981de68",
+		"name": "Bases II Taller Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44697795"
+	},
+	"item": [
+		{
+			"name": "Post Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"sku\": \"HAM-16OZ-STAN0012\",\r\n \"name\": \"Martillo 16oz mango fibra\",\r\n \"brand\": \"Stanley\",\r\n \"category\": \"Herramientas\",\r\n \"unit\": \"pz\",\r\n \"price\": 12990,\r\n \"cost\": 8500,\r\n \"stock\": 24,\r\n \"minStock\": 5,\r\n \"tags\": [\"martillo\", \"obrero\"],\r\n \"attributes\": [{\"key\": \"peso\", \"value\": \"16oz\"}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product (Filters)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products?q=l&minstockAlert=true&limit=30&skip=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "l"
+						},
+						{
+							"key": "minstockAlert",
+							"value": "true"
+						},
+						{
+							"key": "limit",
+							"value": "30"
+						},
+						{
+							"key": "skip",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/68c4ec8841f12bf68448342c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"68c4ec8841f12bf68448342c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch Product by Id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"isaac\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products/68c4ec8841f12bf68448342c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"68c4ec8841f12bf68448342c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/68c4ecc641f12bf68448344d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"68c4ecc641f12bf68448344d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch Stock by Id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"stock\": 32\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products/68c4ec8841f12bf68448342c/adjust-stock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"68c4ec8841f12bf68448342c",
+						"adjust-stock"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
