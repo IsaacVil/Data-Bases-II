@@ -1,0 +1,3324 @@
+[
+  {
+    "anio": 2024,
+    "mes": 1,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 27,
+        "precio": 333.34
+      },
+      {
+        "item": "I00002",
+        "cantidad": 47,
+        "precio": 17.48
+      },
+      {
+        "item": "I00003",
+        "cantidad": 171,
+        "precio": 142.32
+      },
+      {
+        "item": "I00004",
+        "cantidad": 104,
+        "precio": 121.58
+      },
+      {
+        "item": "I00005",
+        "cantidad": 26,
+        "precio": 374.12
+      },
+      {
+        "item": "I00006",
+        "cantidad": 33,
+        "precio": 351.1
+      },
+      {
+        "item": "I00007",
+        "cantidad": 155,
+        "precio": 431.58
+      },
+      {
+        "item": "I00008",
+        "cantidad": 126,
+        "precio": 44.8
+      },
+      {
+        "item": "I00009",
+        "cantidad": 116,
+        "precio": 206.25
+      },
+      {
+        "item": "I00010",
+        "cantidad": 141,
+        "precio": 20.18
+      },
+      {
+        "item": "I00011",
+        "cantidad": 75,
+        "precio": 107.97
+      },
+      {
+        "item": "I00012",
+        "cantidad": 157,
+        "precio": 245.64
+      },
+      {
+        "item": "A00001",
+        "cantidad": 193,
+        "precio": 18.46
+      },
+      {
+        "item": "A00002",
+        "cantidad": 80,
+        "precio": 97.98
+      },
+      {
+        "item": "A00003",
+        "cantidad": 109,
+        "precio": 320.39
+      },
+      {
+        "item": "A00004",
+        "cantidad": 78,
+        "precio": 296.27
+      },
+      {
+        "item": "A00005",
+        "cantidad": 65,
+        "precio": 117.49
+      },
+      {
+        "item": "A00006",
+        "cantidad": 55,
+        "precio": 312.97
+      },
+      {
+        "item": "C00001",
+        "cantidad": 121,
+        "precio": 375.3
+      },
+      {
+        "item": "C00002",
+        "cantidad": 71,
+        "precio": 7.98
+      },
+      {
+        "item": "C00003",
+        "cantidad": 109,
+        "precio": 432.5
+      },
+      {
+        "item": "C00004",
+        "cantidad": 155,
+        "precio": 371.69
+      },
+      {
+        "item": "C00005",
+        "cantidad": 79,
+        "precio": 170.52
+      },
+      {
+        "item": "C00006",
+        "cantidad": 194,
+        "precio": 87.4
+      },
+      {
+        "item": "C00007",
+        "cantidad": 68,
+        "precio": 459.41
+      },
+      {
+        "item": "C00008",
+        "cantidad": 126,
+        "precio": 173.3
+      },
+      {
+        "item": "C00009",
+        "cantidad": 107,
+        "precio": 54.15
+      },
+      {
+        "item": "C00010",
+        "cantidad": 193,
+        "precio": 52.02
+      },
+      {
+        "item": "P10001",
+        "cantidad": 153,
+        "precio": 425.16
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 2,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 321,
+        "precio": 300.48
+      },
+      {
+        "item": "I00002",
+        "cantidad": 144,
+        "precio": 17.73
+      },
+      {
+        "item": "I00003",
+        "cantidad": 125,
+        "precio": 147.74
+      },
+      {
+        "item": "I00004",
+        "cantidad": 97,
+        "precio": 113.3
+      },
+      {
+        "item": "I00005",
+        "cantidad": 127,
+        "precio": 398.88
+      },
+      {
+        "item": "I00006",
+        "cantidad": 0,
+        "precio": 359.59
+      },
+      {
+        "item": "I00007",
+        "cantidad": 87,
+        "precio": 411.72
+      },
+      {
+        "item": "I00008",
+        "cantidad": 100,
+        "precio": 48.31
+      },
+      {
+        "item": "I00009",
+        "cantidad": 27,
+        "precio": 205.87
+      },
+      {
+        "item": "I00010",
+        "cantidad": 98,
+        "precio": 19.54
+      },
+      {
+        "item": "I00011",
+        "cantidad": 94,
+        "precio": 112.39
+      },
+      {
+        "item": "I00012",
+        "cantidad": 234,
+        "precio": 245.49
+      },
+      {
+        "item": "A00001",
+        "cantidad": 81,
+        "precio": 18.14
+      },
+      {
+        "item": "A00002",
+        "cantidad": 174,
+        "precio": 109.55
+      },
+      {
+        "item": "A00003",
+        "cantidad": 236,
+        "precio": 316.15
+      },
+      {
+        "item": "A00004",
+        "cantidad": 64,
+        "precio": 259.49
+      },
+      {
+        "item": "A00005",
+        "cantidad": 53,
+        "precio": 118.91
+      },
+      {
+        "item": "A00006",
+        "cantidad": 15,
+        "precio": 298.13
+      },
+      {
+        "item": "C00001",
+        "cantidad": 91,
+        "precio": 373.25
+      },
+      {
+        "item": "C00002",
+        "cantidad": 111,
+        "precio": 8.78
+      },
+      {
+        "item": "C00003",
+        "cantidad": 127,
+        "precio": 428.35
+      },
+      {
+        "item": "C00004",
+        "cantidad": 142,
+        "precio": 325.78
+      },
+      {
+        "item": "C00005",
+        "cantidad": 72,
+        "precio": 183.91
+      },
+      {
+        "item": "C00006",
+        "cantidad": 140,
+        "precio": 81.78
+      },
+      {
+        "item": "C00007",
+        "cantidad": 108,
+        "precio": 445.82
+      },
+      {
+        "item": "C00008",
+        "cantidad": 123,
+        "precio": 161.41
+      },
+      {
+        "item": "C00009",
+        "cantidad": 14,
+        "precio": 50.71
+      },
+      {
+        "item": "C00010",
+        "cantidad": 72,
+        "precio": 56.02
+      },
+      {
+        "item": "P10001",
+        "cantidad": 102,
+        "precio": 419.29
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 3,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 137,
+        "precio": 333.35
+      },
+      {
+        "item": "I00002",
+        "cantidad": 192,
+        "precio": 16.55
+      },
+      {
+        "item": "I00003",
+        "cantidad": 45,
+        "precio": 144.52
+      },
+      {
+        "item": "I00004",
+        "cantidad": 301,
+        "precio": 114.35
+      },
+      {
+        "item": "I00005",
+        "cantidad": 89,
+        "precio": 353.27
+      },
+      {
+        "item": "I00006",
+        "cantidad": 116,
+        "precio": 331.16
+      },
+      {
+        "item": "I00007",
+        "cantidad": 83,
+        "precio": 426.64
+      },
+      {
+        "item": "I00008",
+        "cantidad": 97,
+        "precio": 44.73
+      },
+      {
+        "item": "I00009",
+        "cantidad": 90,
+        "precio": 227.72
+      },
+      {
+        "item": "I00010",
+        "cantidad": 88,
+        "precio": 20.89
+      },
+      {
+        "item": "I00011",
+        "cantidad": 159,
+        "precio": 116.29
+      },
+      {
+        "item": "I00012",
+        "cantidad": 139,
+        "precio": 243.48
+      },
+      {
+        "item": "A00001",
+        "cantidad": 214,
+        "precio": 18.35
+      },
+      {
+        "item": "A00002",
+        "cantidad": 223,
+        "precio": 102.97
+      },
+      {
+        "item": "A00003",
+        "cantidad": 143,
+        "precio": 310.51
+      },
+      {
+        "item": "A00004",
+        "cantidad": 13,
+        "precio": 257.03
+      },
+      {
+        "item": "A00005",
+        "cantidad": 62,
+        "precio": 113.52
+      },
+      {
+        "item": "A00006",
+        "cantidad": 146,
+        "precio": 307.56
+      },
+      {
+        "item": "C00001",
+        "cantidad": 39,
+        "precio": 379.6
+      },
+      {
+        "item": "C00002",
+        "cantidad": 0,
+        "precio": 8.09
+      },
+      {
+        "item": "C00003",
+        "cantidad": 56,
+        "precio": 387.64
+      },
+      {
+        "item": "C00004",
+        "cantidad": 221,
+        "precio": 333.2
+      },
+      {
+        "item": "C00005",
+        "cantidad": 60,
+        "precio": 167.28
+      },
+      {
+        "item": "C00006",
+        "cantidad": 139,
+        "precio": 78.68
+      },
+      {
+        "item": "C00007",
+        "cantidad": 177,
+        "precio": 506.5
+      },
+      {
+        "item": "C00008",
+        "cantidad": 89,
+        "precio": 172.99
+      },
+      {
+        "item": "C00009",
+        "cantidad": 336,
+        "precio": 53.65
+      },
+      {
+        "item": "C00010",
+        "cantidad": 191,
+        "precio": 56.84
+      },
+      {
+        "item": "P10001",
+        "cantidad": 224,
+        "precio": 401.85
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 4,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 70,
+        "precio": 320.78
+      },
+      {
+        "item": "I00002",
+        "cantidad": 136,
+        "precio": 16.15
+      },
+      {
+        "item": "I00003",
+        "cantidad": 182,
+        "precio": 138.41
+      },
+      {
+        "item": "I00004",
+        "cantidad": 169,
+        "precio": 120.74
+      },
+      {
+        "item": "I00005",
+        "cantidad": 118,
+        "precio": 366.89
+      },
+      {
+        "item": "I00006",
+        "cantidad": 0,
+        "precio": 366.92
+      },
+      {
+        "item": "I00007",
+        "cantidad": 193,
+        "precio": 450.62
+      },
+      {
+        "item": "I00008",
+        "cantidad": 116,
+        "precio": 46.47
+      },
+      {
+        "item": "I00009",
+        "cantidad": 88,
+        "precio": 229.89
+      },
+      {
+        "item": "I00010",
+        "cantidad": 57,
+        "precio": 20.53
+      },
+      {
+        "item": "I00011",
+        "cantidad": 87,
+        "precio": 105.21
+      },
+      {
+        "item": "I00012",
+        "cantidad": 61,
+        "precio": 269.55
+      },
+      {
+        "item": "A00001",
+        "cantidad": 87,
+        "precio": 17.15
+      },
+      {
+        "item": "A00002",
+        "cantidad": 146,
+        "precio": 98.22
+      },
+      {
+        "item": "A00003",
+        "cantidad": 117,
+        "precio": 331.66
+      },
+      {
+        "item": "A00004",
+        "cantidad": 103,
+        "precio": 258.04
+      },
+      {
+        "item": "A00005",
+        "cantidad": 83,
+        "precio": 121.25
+      },
+      {
+        "item": "A00006",
+        "cantidad": 124,
+        "precio": 302.36
+      },
+      {
+        "item": "C00001",
+        "cantidad": 203,
+        "precio": 400.43
+      },
+      {
+        "item": "C00002",
+        "cantidad": 59,
+        "precio": 8.79
+      },
+      {
+        "item": "C00003",
+        "cantidad": 86,
+        "precio": 384.77
+      },
+      {
+        "item": "C00004",
+        "cantidad": 113,
+        "precio": 344.73
+      },
+      {
+        "item": "C00005",
+        "cantidad": 79,
+        "precio": 178.18
+      },
+      {
+        "item": "C00006",
+        "cantidad": 106,
+        "precio": 85.26
+      },
+      {
+        "item": "C00007",
+        "cantidad": 172,
+        "precio": 446.07
+      },
+      {
+        "item": "C00008",
+        "cantidad": 0,
+        "precio": 185.23
+      },
+      {
+        "item": "C00009",
+        "cantidad": 178,
+        "precio": 47.43
+      },
+      {
+        "item": "C00010",
+        "cantidad": 133,
+        "precio": 56.54
+      },
+      {
+        "item": "P10001",
+        "cantidad": 168,
+        "precio": 450.38
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 5,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 167,
+        "precio": 303.91
+      },
+      {
+        "item": "I00002",
+        "cantidad": 86,
+        "precio": 18.31
+      },
+      {
+        "item": "I00003",
+        "cantidad": 102,
+        "precio": 152.14
+      },
+      {
+        "item": "I00004",
+        "cantidad": 46,
+        "precio": 118.34
+      },
+      {
+        "item": "I00005",
+        "cantidad": 236,
+        "precio": 357.69
+      },
+      {
+        "item": "I00006",
+        "cantidad": 131,
+        "precio": 348.86
+      },
+      {
+        "item": "I00007",
+        "cantidad": 155,
+        "precio": 419.15
+      },
+      {
+        "item": "I00008",
+        "cantidad": 113,
+        "precio": 45.01
+      },
+      {
+        "item": "I00009",
+        "cantidad": 80,
+        "precio": 217.44
+      },
+      {
+        "item": "I00010",
+        "cantidad": 110,
+        "precio": 20.44
+      },
+      {
+        "item": "I00011",
+        "cantidad": 150,
+        "precio": 108.95
+      },
+      {
+        "item": "I00012",
+        "cantidad": 207,
+        "precio": 254.68
+      },
+      {
+        "item": "A00001",
+        "cantidad": 222,
+        "precio": 16.96
+      },
+      {
+        "item": "A00002",
+        "cantidad": 60,
+        "precio": 102.16
+      },
+      {
+        "item": "A00003",
+        "cantidad": 125,
+        "precio": 340.86
+      },
+      {
+        "item": "A00004",
+        "cantidad": 130,
+        "precio": 280.78
+      },
+      {
+        "item": "A00005",
+        "cantidad": 118,
+        "precio": 115.06
+      },
+      {
+        "item": "A00006",
+        "cantidad": 224,
+        "precio": 293.26
+      },
+      {
+        "item": "C00001",
+        "cantidad": 149,
+        "precio": 430.54
+      },
+      {
+        "item": "C00002",
+        "cantidad": 127,
+        "precio": 8.75
+      },
+      {
+        "item": "C00003",
+        "cantidad": 16,
+        "precio": 409.21
+      },
+      {
+        "item": "C00004",
+        "cantidad": 93,
+        "precio": 330.84
+      },
+      {
+        "item": "C00005",
+        "cantidad": 161,
+        "precio": 184.49
+      },
+      {
+        "item": "C00006",
+        "cantidad": 162,
+        "precio": 85.84
+      },
+      {
+        "item": "C00007",
+        "cantidad": 208,
+        "precio": 456.61
+      },
+      {
+        "item": "C00008",
+        "cantidad": 27,
+        "precio": 164.73
+      },
+      {
+        "item": "C00009",
+        "cantidad": 209,
+        "precio": 54.04
+      },
+      {
+        "item": "C00010",
+        "cantidad": 188,
+        "precio": 52.08
+      },
+      {
+        "item": "P10001",
+        "cantidad": 100,
+        "precio": 453.71
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 6,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 87,
+        "precio": 340.28
+      },
+      {
+        "item": "I00002",
+        "cantidad": 219,
+        "precio": 18.44
+      },
+      {
+        "item": "I00003",
+        "cantidad": 94,
+        "precio": 130.41
+      },
+      {
+        "item": "I00004",
+        "cantidad": 106,
+        "precio": 123.45
+      },
+      {
+        "item": "I00005",
+        "cantidad": 57,
+        "precio": 387.42
+      },
+      {
+        "item": "I00006",
+        "cantidad": 182,
+        "precio": 327.29
+      },
+      {
+        "item": "I00007",
+        "cantidad": 28,
+        "precio": 467.17
+      },
+      {
+        "item": "I00008",
+        "cantidad": 205,
+        "precio": 50.79
+      },
+      {
+        "item": "I00009",
+        "cantidad": 187,
+        "precio": 204.35
+      },
+      {
+        "item": "I00010",
+        "cantidad": 138,
+        "precio": 19.13
+      },
+      {
+        "item": "I00011",
+        "cantidad": 50,
+        "precio": 118.58
+      },
+      {
+        "item": "I00012",
+        "cantidad": 112,
+        "precio": 242.62
+      },
+      {
+        "item": "A00001",
+        "cantidad": 124,
+        "precio": 17.64
+      },
+      {
+        "item": "A00002",
+        "cantidad": 214,
+        "precio": 99.77
+      },
+      {
+        "item": "A00003",
+        "cantidad": 0,
+        "precio": 334.09
+      },
+      {
+        "item": "A00004",
+        "cantidad": 0,
+        "precio": 276.34
+      },
+      {
+        "item": "A00005",
+        "cantidad": 210,
+        "precio": 122.14
+      },
+      {
+        "item": "A00006",
+        "cantidad": 230,
+        "precio": 281.43
+      },
+      {
+        "item": "C00001",
+        "cantidad": 216,
+        "precio": 435.69
+      },
+      {
+        "item": "C00002",
+        "cantidad": 108,
+        "precio": 8.13
+      },
+      {
+        "item": "C00003",
+        "cantidad": 139,
+        "precio": 418.65
+      },
+      {
+        "item": "C00004",
+        "cantidad": 79,
+        "precio": 351.22
+      },
+      {
+        "item": "C00005",
+        "cantidad": 186,
+        "precio": 170.23
+      },
+      {
+        "item": "C00006",
+        "cantidad": 70,
+        "precio": 84.7
+      },
+      {
+        "item": "C00007",
+        "cantidad": 89,
+        "precio": 440.64
+      },
+      {
+        "item": "C00008",
+        "cantidad": 177,
+        "precio": 177.64
+      },
+      {
+        "item": "C00009",
+        "cantidad": 77,
+        "precio": 52.88
+      },
+      {
+        "item": "C00010",
+        "cantidad": 83,
+        "precio": 49.23
+      },
+      {
+        "item": "P10001",
+        "cantidad": 60,
+        "precio": 435.67
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 7,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 88,
+        "precio": 339.42
+      },
+      {
+        "item": "I00002",
+        "cantidad": 159,
+        "precio": 17.99
+      },
+      {
+        "item": "I00003",
+        "cantidad": 97,
+        "precio": 139.07
+      },
+      {
+        "item": "I00004",
+        "cantidad": 163,
+        "precio": 113.69
+      },
+      {
+        "item": "I00005",
+        "cantidad": 105,
+        "precio": 364.85
+      },
+      {
+        "item": "I00006",
+        "cantidad": 144,
+        "precio": 363.92
+      },
+      {
+        "item": "I00007",
+        "cantidad": 56,
+        "precio": 454.88
+      },
+      {
+        "item": "I00008",
+        "cantidad": 0,
+        "precio": 46.5
+      },
+      {
+        "item": "I00009",
+        "cantidad": 112,
+        "precio": 206.56
+      },
+      {
+        "item": "I00010",
+        "cantidad": 113,
+        "precio": 19.53
+      },
+      {
+        "item": "I00011",
+        "cantidad": 37,
+        "precio": 112.6
+      },
+      {
+        "item": "I00012",
+        "cantidad": 71,
+        "precio": 252.79
+      },
+      {
+        "item": "A00001",
+        "cantidad": 129,
+        "precio": 19.3
+      },
+      {
+        "item": "A00002",
+        "cantidad": 180,
+        "precio": 108.32
+      },
+      {
+        "item": "A00003",
+        "cantidad": 126,
+        "precio": 327.5
+      },
+      {
+        "item": "A00004",
+        "cantidad": 136,
+        "precio": 280.59
+      },
+      {
+        "item": "A00005",
+        "cantidad": 57,
+        "precio": 118.71
+      },
+      {
+        "item": "A00006",
+        "cantidad": 209,
+        "precio": 304.89
+      },
+      {
+        "item": "C00001",
+        "cantidad": 120,
+        "precio": 374.8
+      },
+      {
+        "item": "C00002",
+        "cantidad": 153,
+        "precio": 7.88
+      },
+      {
+        "item": "C00003",
+        "cantidad": 0,
+        "precio": 376.28
+      },
+      {
+        "item": "C00004",
+        "cantidad": 132,
+        "precio": 345.78
+      },
+      {
+        "item": "C00005",
+        "cantidad": 86,
+        "precio": 178.87
+      },
+      {
+        "item": "C00006",
+        "cantidad": 85,
+        "precio": 81.89
+      },
+      {
+        "item": "C00007",
+        "cantidad": 117,
+        "precio": 440.94
+      },
+      {
+        "item": "C00008",
+        "cantidad": 201,
+        "precio": 178.5
+      },
+      {
+        "item": "C00009",
+        "cantidad": 117,
+        "precio": 50.3
+      },
+      {
+        "item": "C00010",
+        "cantidad": 85,
+        "precio": 50.13
+      },
+      {
+        "item": "P10001",
+        "cantidad": 183,
+        "precio": 393.96
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 8,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 98,
+        "precio": 308.62
+      },
+      {
+        "item": "I00002",
+        "cantidad": 155,
+        "precio": 18.22
+      },
+      {
+        "item": "I00003",
+        "cantidad": 62,
+        "precio": 144.92
+      },
+      {
+        "item": "I00004",
+        "cantidad": 197,
+        "precio": 123.81
+      },
+      {
+        "item": "I00005",
+        "cantidad": 110,
+        "precio": 392.69
+      },
+      {
+        "item": "I00006",
+        "cantidad": 44,
+        "precio": 340.23
+      },
+      {
+        "item": "I00007",
+        "cantidad": 54,
+        "precio": 470.25
+      },
+      {
+        "item": "I00008",
+        "cantidad": 0,
+        "precio": 49.9
+      },
+      {
+        "item": "I00009",
+        "cantidad": 79,
+        "precio": 212.98
+      },
+      {
+        "item": "I00010",
+        "cantidad": 114,
+        "precio": 20.19
+      },
+      {
+        "item": "I00011",
+        "cantidad": 162,
+        "precio": 118.05
+      },
+      {
+        "item": "I00012",
+        "cantidad": 33,
+        "precio": 245.95
+      },
+      {
+        "item": "A00001",
+        "cantidad": 105,
+        "precio": 16.91
+      },
+      {
+        "item": "A00002",
+        "cantidad": 106,
+        "precio": 100.44
+      },
+      {
+        "item": "A00003",
+        "cantidad": 163,
+        "precio": 328.79
+      },
+      {
+        "item": "A00004",
+        "cantidad": 145,
+        "precio": 283.28
+      },
+      {
+        "item": "A00005",
+        "cantidad": 150,
+        "precio": 117.89
+      },
+      {
+        "item": "A00006",
+        "cantidad": 173,
+        "precio": 298.71
+      },
+      {
+        "item": "C00001",
+        "cantidad": 141,
+        "precio": 400.2
+      },
+      {
+        "item": "C00002",
+        "cantidad": 133,
+        "precio": 8.75
+      },
+      {
+        "item": "C00003",
+        "cantidad": 177,
+        "precio": 409.31
+      },
+      {
+        "item": "C00004",
+        "cantidad": 77,
+        "precio": 365.48
+      },
+      {
+        "item": "C00005",
+        "cantidad": 5,
+        "precio": 170.1
+      },
+      {
+        "item": "C00006",
+        "cantidad": 172,
+        "precio": 85.28
+      },
+      {
+        "item": "C00007",
+        "cantidad": 119,
+        "precio": 505.9
+      },
+      {
+        "item": "C00008",
+        "cantidad": 176,
+        "precio": 178.41
+      },
+      {
+        "item": "C00009",
+        "cantidad": 98,
+        "precio": 51.29
+      },
+      {
+        "item": "C00010",
+        "cantidad": 83,
+        "precio": 50.5
+      },
+      {
+        "item": "P10001",
+        "cantidad": 91,
+        "precio": 420.15
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 9,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 173,
+        "precio": 330.74
+      },
+      {
+        "item": "I00002",
+        "cantidad": 129,
+        "precio": 17.11
+      },
+      {
+        "item": "I00003",
+        "cantidad": 154,
+        "precio": 132.73
+      },
+      {
+        "item": "I00004",
+        "cantidad": 177,
+        "precio": 117.75
+      },
+      {
+        "item": "I00005",
+        "cantidad": 179,
+        "precio": 373.36
+      },
+      {
+        "item": "I00006",
+        "cantidad": 130,
+        "precio": 314.25
+      },
+      {
+        "item": "I00007",
+        "cantidad": 99,
+        "precio": 443.89
+      },
+      {
+        "item": "I00008",
+        "cantidad": 94,
+        "precio": 44.57
+      },
+      {
+        "item": "I00009",
+        "cantidad": 89,
+        "precio": 207.93
+      },
+      {
+        "item": "I00010",
+        "cantidad": 148,
+        "precio": 20.58
+      },
+      {
+        "item": "I00011",
+        "cantidad": 47,
+        "precio": 119.24
+      },
+      {
+        "item": "I00012",
+        "cantidad": 188,
+        "precio": 245.04
+      },
+      {
+        "item": "A00001",
+        "cantidad": 130,
+        "precio": 18.25
+      },
+      {
+        "item": "A00002",
+        "cantidad": 125,
+        "precio": 111.69
+      },
+      {
+        "item": "A00003",
+        "cantidad": 68,
+        "precio": 341.39
+      },
+      {
+        "item": "A00004",
+        "cantidad": 190,
+        "precio": 281.42
+      },
+      {
+        "item": "A00005",
+        "cantidad": 123,
+        "precio": 108.63
+      },
+      {
+        "item": "A00006",
+        "cantidad": 0,
+        "precio": 273.92
+      },
+      {
+        "item": "C00001",
+        "cantidad": 137,
+        "precio": 416.67
+      },
+      {
+        "item": "C00002",
+        "cantidad": 145,
+        "precio": 8.3
+      },
+      {
+        "item": "C00003",
+        "cantidad": 138,
+        "precio": 421.13
+      },
+      {
+        "item": "C00004",
+        "cantidad": 211,
+        "precio": 331.95
+      },
+      {
+        "item": "C00005",
+        "cantidad": 42,
+        "precio": 162.72
+      },
+      {
+        "item": "C00006",
+        "cantidad": 57,
+        "precio": 86.15
+      },
+      {
+        "item": "C00007",
+        "cantidad": 147,
+        "precio": 442.48
+      },
+      {
+        "item": "C00008",
+        "cantidad": 113,
+        "precio": 166.45
+      },
+      {
+        "item": "C00009",
+        "cantidad": 53,
+        "precio": 50.07
+      },
+      {
+        "item": "C00010",
+        "cantidad": 0,
+        "precio": 54.69
+      },
+      {
+        "item": "P10001",
+        "cantidad": 201,
+        "precio": 433.15
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 10,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 165,
+        "precio": 301.04
+      },
+      {
+        "item": "I00002",
+        "cantidad": 139,
+        "precio": 17.66
+      },
+      {
+        "item": "I00003",
+        "cantidad": 7,
+        "precio": 132.58
+      },
+      {
+        "item": "I00004",
+        "cantidad": 227,
+        "precio": 112.67
+      },
+      {
+        "item": "I00005",
+        "cantidad": 112,
+        "precio": 365.32
+      },
+      {
+        "item": "I00006",
+        "cantidad": 74,
+        "precio": 331.33
+      },
+      {
+        "item": "I00007",
+        "cantidad": 174,
+        "precio": 471.61
+      },
+      {
+        "item": "I00008",
+        "cantidad": 135,
+        "precio": 51.57
+      },
+      {
+        "item": "I00009",
+        "cantidad": 97,
+        "precio": 218.49
+      },
+      {
+        "item": "I00010",
+        "cantidad": 167,
+        "precio": 19.55
+      },
+      {
+        "item": "I00011",
+        "cantidad": 40,
+        "precio": 117.47
+      },
+      {
+        "item": "I00012",
+        "cantidad": 169,
+        "precio": 267.73
+      },
+      {
+        "item": "A00001",
+        "cantidad": 112,
+        "precio": 18.25
+      },
+      {
+        "item": "A00002",
+        "cantidad": 59,
+        "precio": 107.24
+      },
+      {
+        "item": "A00003",
+        "cantidad": 129,
+        "precio": 314.58
+      },
+      {
+        "item": "A00004",
+        "cantidad": 190,
+        "precio": 256.58
+      },
+      {
+        "item": "A00005",
+        "cantidad": 32,
+        "precio": 121.09
+      },
+      {
+        "item": "A00006",
+        "cantidad": 125,
+        "precio": 301.93
+      },
+      {
+        "item": "C00001",
+        "cantidad": 190,
+        "precio": 397.82
+      },
+      {
+        "item": "C00002",
+        "cantidad": 238,
+        "precio": 7.8
+      },
+      {
+        "item": "C00003",
+        "cantidad": 143,
+        "precio": 385.28
+      },
+      {
+        "item": "C00004",
+        "cantidad": 139,
+        "precio": 371.91
+      },
+      {
+        "item": "C00005",
+        "cantidad": 70,
+        "precio": 179.0
+      },
+      {
+        "item": "C00006",
+        "cantidad": 121,
+        "precio": 87.84
+      },
+      {
+        "item": "C00007",
+        "cantidad": 131,
+        "precio": 447.07
+      },
+      {
+        "item": "C00008",
+        "cantidad": 110,
+        "precio": 178.7
+      },
+      {
+        "item": "C00009",
+        "cantidad": 54,
+        "precio": 52.46
+      },
+      {
+        "item": "C00010",
+        "cantidad": 80,
+        "precio": 55.35
+      },
+      {
+        "item": "P10001",
+        "cantidad": 67,
+        "precio": 396.87
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 11,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 142,
+        "precio": 311.55
+      },
+      {
+        "item": "I00002",
+        "cantidad": 216,
+        "precio": 17.61
+      },
+      {
+        "item": "I00003",
+        "cantidad": 53,
+        "precio": 139.46
+      },
+      {
+        "item": "I00004",
+        "cantidad": 138,
+        "precio": 120.03
+      },
+      {
+        "item": "I00005",
+        "cantidad": 80,
+        "precio": 356.0
+      },
+      {
+        "item": "I00006",
+        "cantidad": 207,
+        "precio": 326.45
+      },
+      {
+        "item": "I00007",
+        "cantidad": 154,
+        "precio": 419.44
+      },
+      {
+        "item": "I00008",
+        "cantidad": 152,
+        "precio": 48.31
+      },
+      {
+        "item": "I00009",
+        "cantidad": 128,
+        "precio": 204.15
+      },
+      {
+        "item": "I00010",
+        "cantidad": 87,
+        "precio": 19.7
+      },
+      {
+        "item": "I00011",
+        "cantidad": 99,
+        "precio": 113.68
+      },
+      {
+        "item": "I00012",
+        "cantidad": 0,
+        "precio": 246.29
+      },
+      {
+        "item": "A00001",
+        "cantidad": 157,
+        "precio": 17.35
+      },
+      {
+        "item": "A00002",
+        "cantidad": 149,
+        "precio": 98.12
+      },
+      {
+        "item": "A00003",
+        "cantidad": 199,
+        "precio": 314.89
+      },
+      {
+        "item": "A00004",
+        "cantidad": 132,
+        "precio": 295.6
+      },
+      {
+        "item": "A00005",
+        "cantidad": 38,
+        "precio": 107.3
+      },
+      {
+        "item": "A00006",
+        "cantidad": 95,
+        "precio": 314.18
+      },
+      {
+        "item": "C00001",
+        "cantidad": 4,
+        "precio": 410.48
+      },
+      {
+        "item": "C00002",
+        "cantidad": 132,
+        "precio": 8.18
+      },
+      {
+        "item": "C00003",
+        "cantidad": 90,
+        "precio": 374.89
+      },
+      {
+        "item": "C00004",
+        "cantidad": 139,
+        "precio": 375.32
+      },
+      {
+        "item": "C00005",
+        "cantidad": 15,
+        "precio": 170.66
+      },
+      {
+        "item": "C00006",
+        "cantidad": 141,
+        "precio": 76.37
+      },
+      {
+        "item": "C00007",
+        "cantidad": 112,
+        "precio": 451.94
+      },
+      {
+        "item": "C00008",
+        "cantidad": 111,
+        "precio": 173.34
+      },
+      {
+        "item": "C00009",
+        "cantidad": 62,
+        "precio": 47.8
+      },
+      {
+        "item": "C00010",
+        "cantidad": 306,
+        "precio": 55.11
+      },
+      {
+        "item": "P10001",
+        "cantidad": 42,
+        "precio": 405.88
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "mes": 12,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 45,
+        "precio": 322.68
+      },
+      {
+        "item": "I00002",
+        "cantidad": 49,
+        "precio": 18.38
+      },
+      {
+        "item": "I00003",
+        "cantidad": 130,
+        "precio": 152.21
+      },
+      {
+        "item": "I00004",
+        "cantidad": 82,
+        "precio": 117.52
+      },
+      {
+        "item": "I00005",
+        "cantidad": 189,
+        "precio": 383.75
+      },
+      {
+        "item": "I00006",
+        "cantidad": 149,
+        "precio": 324.25
+      },
+      {
+        "item": "I00007",
+        "cantidad": 97,
+        "precio": 458.09
+      },
+      {
+        "item": "I00008",
+        "cantidad": 131,
+        "precio": 44.76
+      },
+      {
+        "item": "I00009",
+        "cantidad": 141,
+        "precio": 196.83
+      },
+      {
+        "item": "I00010",
+        "cantidad": 34,
+        "precio": 19.09
+      },
+      {
+        "item": "I00011",
+        "cantidad": 135,
+        "precio": 108.37
+      },
+      {
+        "item": "I00012",
+        "cantidad": 86,
+        "precio": 253.27
+      },
+      {
+        "item": "A00001",
+        "cantidad": 20,
+        "precio": 18.68
+      },
+      {
+        "item": "A00002",
+        "cantidad": 204,
+        "precio": 105.49
+      },
+      {
+        "item": "A00003",
+        "cantidad": 62,
+        "precio": 335.12
+      },
+      {
+        "item": "A00004",
+        "cantidad": 168,
+        "precio": 276.71
+      },
+      {
+        "item": "A00005",
+        "cantidad": 85,
+        "precio": 116.82
+      },
+      {
+        "item": "A00006",
+        "cantidad": 205,
+        "precio": 276.34
+      },
+      {
+        "item": "C00001",
+        "cantidad": 49,
+        "precio": 383.99
+      },
+      {
+        "item": "C00002",
+        "cantidad": 75,
+        "precio": 8.31
+      },
+      {
+        "item": "C00003",
+        "cantidad": 204,
+        "precio": 390.22
+      },
+      {
+        "item": "C00004",
+        "cantidad": 176,
+        "precio": 361.78
+      },
+      {
+        "item": "C00005",
+        "cantidad": 175,
+        "precio": 185.7
+      },
+      {
+        "item": "C00006",
+        "cantidad": 40,
+        "precio": 76.46
+      },
+      {
+        "item": "C00007",
+        "cantidad": 110,
+        "precio": 443.57
+      },
+      {
+        "item": "C00008",
+        "cantidad": 62,
+        "precio": 164.76
+      },
+      {
+        "item": "C00009",
+        "cantidad": 132,
+        "precio": 47.58
+      },
+      {
+        "item": "C00010",
+        "cantidad": 221,
+        "precio": 53.51
+      },
+      {
+        "item": "P10001",
+        "cantidad": 83,
+        "precio": 455.13
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 1,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 203,
+        "precio": 309.66
+      },
+      {
+        "item": "I00002",
+        "cantidad": 113,
+        "precio": 16.1
+      },
+      {
+        "item": "I00003",
+        "cantidad": 116,
+        "precio": 144.56
+      },
+      {
+        "item": "I00004",
+        "cantidad": 46,
+        "precio": 123.18
+      },
+      {
+        "item": "I00005",
+        "cantidad": 147,
+        "precio": 377.52
+      },
+      {
+        "item": "I00006",
+        "cantidad": 186,
+        "precio": 339.52
+      },
+      {
+        "item": "I00007",
+        "cantidad": 160,
+        "precio": 434.72
+      },
+      {
+        "item": "I00008",
+        "cantidad": 144,
+        "precio": 49.34
+      },
+      {
+        "item": "I00009",
+        "cantidad": 147,
+        "precio": 220.48
+      },
+      {
+        "item": "I00010",
+        "cantidad": 72,
+        "precio": 19.08
+      },
+      {
+        "item": "I00011",
+        "cantidad": 217,
+        "precio": 114.14
+      },
+      {
+        "item": "I00012",
+        "cantidad": 76,
+        "precio": 253.31
+      },
+      {
+        "item": "A00001",
+        "cantidad": 93,
+        "precio": 19.5
+      },
+      {
+        "item": "A00002",
+        "cantidad": 162,
+        "precio": 101.83
+      },
+      {
+        "item": "A00003",
+        "cantidad": 0,
+        "precio": 334.93
+      },
+      {
+        "item": "A00004",
+        "cantidad": 97,
+        "precio": 276.62
+      },
+      {
+        "item": "A00005",
+        "cantidad": 80,
+        "precio": 111.6
+      },
+      {
+        "item": "A00006",
+        "cantidad": 134,
+        "precio": 308.86
+      },
+      {
+        "item": "C00001",
+        "cantidad": 42,
+        "precio": 386.43
+      },
+      {
+        "item": "C00002",
+        "cantidad": 42,
+        "precio": 8.28
+      },
+      {
+        "item": "C00003",
+        "cantidad": 171,
+        "precio": 416.69
+      },
+      {
+        "item": "C00004",
+        "cantidad": 85,
+        "precio": 329.34
+      },
+      {
+        "item": "C00005",
+        "cantidad": 195,
+        "precio": 166.19
+      },
+      {
+        "item": "C00006",
+        "cantidad": 100,
+        "precio": 77.48
+      },
+      {
+        "item": "C00007",
+        "cantidad": 41,
+        "precio": 447.66
+      },
+      {
+        "item": "C00008",
+        "cantidad": 90,
+        "precio": 185.13
+      },
+      {
+        "item": "C00009",
+        "cantidad": 171,
+        "precio": 47.79
+      },
+      {
+        "item": "C00010",
+        "cantidad": 79,
+        "precio": 55.68
+      },
+      {
+        "item": "P10001",
+        "cantidad": 18,
+        "precio": 425.11
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 2,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 117,
+        "precio": 309.86
+      },
+      {
+        "item": "I00002",
+        "cantidad": 202,
+        "precio": 16.67
+      },
+      {
+        "item": "I00003",
+        "cantidad": 0,
+        "precio": 142.3
+      },
+      {
+        "item": "I00004",
+        "cantidad": 16,
+        "precio": 115.64
+      },
+      {
+        "item": "I00005",
+        "cantidad": 207,
+        "precio": 391.98
+      },
+      {
+        "item": "I00006",
+        "cantidad": 148,
+        "precio": 355.74
+      },
+      {
+        "item": "I00007",
+        "cantidad": 80,
+        "precio": 440.55
+      },
+      {
+        "item": "I00008",
+        "cantidad": 182,
+        "precio": 50.49
+      },
+      {
+        "item": "I00009",
+        "cantidad": 88,
+        "precio": 206.42
+      },
+      {
+        "item": "I00010",
+        "cantidad": 93,
+        "precio": 21.33
+      },
+      {
+        "item": "I00011",
+        "cantidad": 193,
+        "precio": 113.04
+      },
+      {
+        "item": "I00012",
+        "cantidad": 161,
+        "precio": 248.83
+      },
+      {
+        "item": "A00001",
+        "cantidad": 176,
+        "precio": 18.29
+      },
+      {
+        "item": "A00002",
+        "cantidad": 53,
+        "precio": 100.47
+      },
+      {
+        "item": "A00003",
+        "cantidad": 99,
+        "precio": 310.42
+      },
+      {
+        "item": "A00004",
+        "cantidad": 91,
+        "precio": 263.04
+      },
+      {
+        "item": "A00005",
+        "cantidad": 43,
+        "precio": 119.15
+      },
+      {
+        "item": "A00006",
+        "cantidad": 212,
+        "precio": 306.43
+      },
+      {
+        "item": "C00001",
+        "cantidad": 143,
+        "precio": 425.88
+      },
+      {
+        "item": "C00002",
+        "cantidad": 50,
+        "precio": 8.64
+      },
+      {
+        "item": "C00003",
+        "cantidad": 175,
+        "precio": 434.95
+      },
+      {
+        "item": "C00004",
+        "cantidad": 100,
+        "precio": 350.71
+      },
+      {
+        "item": "C00005",
+        "cantidad": 117,
+        "precio": 175.92
+      },
+      {
+        "item": "C00006",
+        "cantidad": 200,
+        "precio": 81.18
+      },
+      {
+        "item": "C00007",
+        "cantidad": 27,
+        "precio": 480.81
+      },
+      {
+        "item": "C00008",
+        "cantidad": 24,
+        "precio": 169.14
+      },
+      {
+        "item": "C00009",
+        "cantidad": 142,
+        "precio": 52.17
+      },
+      {
+        "item": "C00010",
+        "cantidad": 155,
+        "precio": 56.84
+      },
+      {
+        "item": "P10001",
+        "cantidad": 172,
+        "precio": 413.54
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 3,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 89,
+        "precio": 339.62
+      },
+      {
+        "item": "I00002",
+        "cantidad": 38,
+        "precio": 18.36
+      },
+      {
+        "item": "I00003",
+        "cantidad": 157,
+        "precio": 137.0
+      },
+      {
+        "item": "I00004",
+        "cantidad": 74,
+        "precio": 119.53
+      },
+      {
+        "item": "I00005",
+        "cantidad": 127,
+        "precio": 342.11
+      },
+      {
+        "item": "I00006",
+        "cantidad": 0,
+        "precio": 316.49
+      },
+      {
+        "item": "I00007",
+        "cantidad": 28,
+        "precio": 482.18
+      },
+      {
+        "item": "I00008",
+        "cantidad": 20,
+        "precio": 49.93
+      },
+      {
+        "item": "I00009",
+        "cantidad": 95,
+        "precio": 218.43
+      },
+      {
+        "item": "I00010",
+        "cantidad": 131,
+        "precio": 20.93
+      },
+      {
+        "item": "I00011",
+        "cantidad": 33,
+        "precio": 120.54
+      },
+      {
+        "item": "I00012",
+        "cantidad": 151,
+        "precio": 236.62
+      },
+      {
+        "item": "A00001",
+        "cantidad": 134,
+        "precio": 17.78
+      },
+      {
+        "item": "A00002",
+        "cantidad": 72,
+        "precio": 97.56
+      },
+      {
+        "item": "A00003",
+        "cantidad": 43,
+        "precio": 341.98
+      },
+      {
+        "item": "A00004",
+        "cantidad": 104,
+        "precio": 260.24
+      },
+      {
+        "item": "A00005",
+        "cantidad": 226,
+        "precio": 116.31
+      },
+      {
+        "item": "A00006",
+        "cantidad": 177,
+        "precio": 284.39
+      },
+      {
+        "item": "C00001",
+        "cantidad": 148,
+        "precio": 403.15
+      },
+      {
+        "item": "C00002",
+        "cantidad": 102,
+        "precio": 7.9
+      },
+      {
+        "item": "C00003",
+        "cantidad": 119,
+        "precio": 423.57
+      },
+      {
+        "item": "C00004",
+        "cantidad": 128,
+        "precio": 373.08
+      },
+      {
+        "item": "C00005",
+        "cantidad": 104,
+        "precio": 171.8
+      },
+      {
+        "item": "C00006",
+        "cantidad": 88,
+        "precio": 79.93
+      },
+      {
+        "item": "C00007",
+        "cantidad": 46,
+        "precio": 473.02
+      },
+      {
+        "item": "C00008",
+        "cantidad": 75,
+        "precio": 164.75
+      },
+      {
+        "item": "C00009",
+        "cantidad": 142,
+        "precio": 49.97
+      },
+      {
+        "item": "C00010",
+        "cantidad": 86,
+        "precio": 52.73
+      },
+      {
+        "item": "P10001",
+        "cantidad": 126,
+        "precio": 429.59
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 4,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 200,
+        "precio": 346.87
+      },
+      {
+        "item": "I00002",
+        "cantidad": 76,
+        "precio": 17.82
+      },
+      {
+        "item": "I00003",
+        "cantidad": 282,
+        "precio": 136.05
+      },
+      {
+        "item": "I00004",
+        "cantidad": 39,
+        "precio": 120.01
+      },
+      {
+        "item": "I00005",
+        "cantidad": 86,
+        "precio": 342.89
+      },
+      {
+        "item": "I00006",
+        "cantidad": 67,
+        "precio": 361.95
+      },
+      {
+        "item": "I00007",
+        "cantidad": 79,
+        "precio": 431.35
+      },
+      {
+        "item": "I00008",
+        "cantidad": 147,
+        "precio": 46.9
+      },
+      {
+        "item": "I00009",
+        "cantidad": 44,
+        "precio": 218.52
+      },
+      {
+        "item": "I00010",
+        "cantidad": 57,
+        "precio": 20.45
+      },
+      {
+        "item": "I00011",
+        "cantidad": 60,
+        "precio": 116.11
+      },
+      {
+        "item": "I00012",
+        "cantidad": 167,
+        "precio": 271.62
+      },
+      {
+        "item": "A00001",
+        "cantidad": 51,
+        "precio": 18.56
+      },
+      {
+        "item": "A00002",
+        "cantidad": 99,
+        "precio": 104.74
+      },
+      {
+        "item": "A00003",
+        "cantidad": 183,
+        "precio": 338.84
+      },
+      {
+        "item": "A00004",
+        "cantidad": 165,
+        "precio": 285.63
+      },
+      {
+        "item": "A00005",
+        "cantidad": 149,
+        "precio": 108.2
+      },
+      {
+        "item": "A00006",
+        "cantidad": 173,
+        "precio": 319.07
+      },
+      {
+        "item": "C00001",
+        "cantidad": 178,
+        "precio": 407.67
+      },
+      {
+        "item": "C00002",
+        "cantidad": 219,
+        "precio": 7.9
+      },
+      {
+        "item": "C00003",
+        "cantidad": 64,
+        "precio": 424.86
+      },
+      {
+        "item": "C00004",
+        "cantidad": 14,
+        "precio": 364.41
+      },
+      {
+        "item": "C00005",
+        "cantidad": 135,
+        "precio": 168.94
+      },
+      {
+        "item": "C00006",
+        "cantidad": 238,
+        "precio": 77.25
+      },
+      {
+        "item": "C00007",
+        "cantidad": 224,
+        "precio": 514.56
+      },
+      {
+        "item": "C00008",
+        "cantidad": 184,
+        "precio": 184.79
+      },
+      {
+        "item": "C00009",
+        "cantidad": 48,
+        "precio": 54.72
+      },
+      {
+        "item": "C00010",
+        "cantidad": 142,
+        "precio": 55.33
+      },
+      {
+        "item": "P10001",
+        "cantidad": 69,
+        "precio": 391.49
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 5,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 61,
+        "precio": 330.41
+      },
+      {
+        "item": "I00002",
+        "cantidad": 110,
+        "precio": 17.86
+      },
+      {
+        "item": "I00003",
+        "cantidad": 29,
+        "precio": 151.08
+      },
+      {
+        "item": "I00004",
+        "cantidad": 69,
+        "precio": 108.25
+      },
+      {
+        "item": "I00005",
+        "cantidad": 127,
+        "precio": 392.27
+      },
+      {
+        "item": "I00006",
+        "cantidad": 139,
+        "precio": 343.31
+      },
+      {
+        "item": "I00007",
+        "cantidad": 162,
+        "precio": 415.42
+      },
+      {
+        "item": "I00008",
+        "cantidad": 104,
+        "precio": 50.52
+      },
+      {
+        "item": "I00009",
+        "cantidad": 168,
+        "precio": 210.71
+      },
+      {
+        "item": "I00010",
+        "cantidad": 98,
+        "precio": 18.61
+      },
+      {
+        "item": "I00011",
+        "cantidad": 174,
+        "precio": 113.1
+      },
+      {
+        "item": "I00012",
+        "cantidad": 109,
+        "precio": 238.71
+      },
+      {
+        "item": "A00001",
+        "cantidad": 150,
+        "precio": 18.01
+      },
+      {
+        "item": "A00002",
+        "cantidad": 104,
+        "precio": 106.24
+      },
+      {
+        "item": "A00003",
+        "cantidad": 119,
+        "precio": 322.46
+      },
+      {
+        "item": "A00004",
+        "cantidad": 0,
+        "precio": 285.4
+      },
+      {
+        "item": "A00005",
+        "cantidad": 161,
+        "precio": 106.8
+      },
+      {
+        "item": "A00006",
+        "cantidad": 177,
+        "precio": 296.18
+      },
+      {
+        "item": "C00001",
+        "cantidad": 2,
+        "precio": 375.34
+      },
+      {
+        "item": "C00002",
+        "cantidad": 206,
+        "precio": 8.05
+      },
+      {
+        "item": "C00003",
+        "cantidad": 0,
+        "precio": 426.85
+      },
+      {
+        "item": "C00004",
+        "cantidad": 177,
+        "precio": 328.11
+      },
+      {
+        "item": "C00005",
+        "cantidad": 96,
+        "precio": 186.68
+      },
+      {
+        "item": "C00006",
+        "cantidad": 56,
+        "precio": 80.11
+      },
+      {
+        "item": "C00007",
+        "cantidad": 94,
+        "precio": 449.87
+      },
+      {
+        "item": "C00008",
+        "cantidad": 149,
+        "precio": 181.17
+      },
+      {
+        "item": "C00009",
+        "cantidad": 41,
+        "precio": 52.06
+      },
+      {
+        "item": "C00010",
+        "cantidad": 150,
+        "precio": 53.69
+      },
+      {
+        "item": "P10001",
+        "cantidad": 230,
+        "precio": 407.09
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 6,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 125,
+        "precio": 302.28
+      },
+      {
+        "item": "I00002",
+        "cantidad": 90,
+        "precio": 18.12
+      },
+      {
+        "item": "I00003",
+        "cantidad": 102,
+        "precio": 134.53
+      },
+      {
+        "item": "I00004",
+        "cantidad": 136,
+        "precio": 112.32
+      },
+      {
+        "item": "I00005",
+        "cantidad": 229,
+        "precio": 348.71
+      },
+      {
+        "item": "I00006",
+        "cantidad": 114,
+        "precio": 359.47
+      },
+      {
+        "item": "I00007",
+        "cantidad": 108,
+        "precio": 421.24
+      },
+      {
+        "item": "I00008",
+        "cantidad": 142,
+        "precio": 45.53
+      },
+      {
+        "item": "I00009",
+        "cantidad": 144,
+        "precio": 219.36
+      },
+      {
+        "item": "I00010",
+        "cantidad": 121,
+        "precio": 20.67
+      },
+      {
+        "item": "I00011",
+        "cantidad": 112,
+        "precio": 108.48
+      },
+      {
+        "item": "I00012",
+        "cantidad": 94,
+        "precio": 236.88
+      },
+      {
+        "item": "A00001",
+        "cantidad": 144,
+        "precio": 18.84
+      },
+      {
+        "item": "A00002",
+        "cantidad": 13,
+        "precio": 103.03
+      },
+      {
+        "item": "A00003",
+        "cantidad": 94,
+        "precio": 341.22
+      },
+      {
+        "item": "A00004",
+        "cantidad": 82,
+        "precio": 274.92
+      },
+      {
+        "item": "A00005",
+        "cantidad": 108,
+        "precio": 122.25
+      },
+      {
+        "item": "A00006",
+        "cantidad": 212,
+        "precio": 314.11
+      },
+      {
+        "item": "C00001",
+        "cantidad": 139,
+        "precio": 407.06
+      },
+      {
+        "item": "C00002",
+        "cantidad": 0,
+        "precio": 7.64
+      },
+      {
+        "item": "C00003",
+        "cantidad": 151,
+        "precio": 402.52
+      },
+      {
+        "item": "C00004",
+        "cantidad": 36,
+        "precio": 350.03
+      },
+      {
+        "item": "C00005",
+        "cantidad": 163,
+        "precio": 184.79
+      },
+      {
+        "item": "C00006",
+        "cantidad": 133,
+        "precio": 83.38
+      },
+      {
+        "item": "C00007",
+        "cantidad": 121,
+        "precio": 445.55
+      },
+      {
+        "item": "C00008",
+        "cantidad": 97,
+        "precio": 172.94
+      },
+      {
+        "item": "C00009",
+        "cantidad": 194,
+        "precio": 49.49
+      },
+      {
+        "item": "C00010",
+        "cantidad": 184,
+        "precio": 52.48
+      },
+      {
+        "item": "P10001",
+        "cantidad": 108,
+        "precio": 431.67
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 7,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 189,
+        "precio": 339.67
+      },
+      {
+        "item": "I00002",
+        "cantidad": 168,
+        "precio": 17.8
+      },
+      {
+        "item": "I00003",
+        "cantidad": 125,
+        "precio": 134.7
+      },
+      {
+        "item": "I00004",
+        "cantidad": 18,
+        "precio": 114.59
+      },
+      {
+        "item": "I00005",
+        "cantidad": 121,
+        "precio": 366.8
+      },
+      {
+        "item": "I00006",
+        "cantidad": 168,
+        "precio": 335.4
+      },
+      {
+        "item": "I00007",
+        "cantidad": 166,
+        "precio": 458.43
+      },
+      {
+        "item": "I00008",
+        "cantidad": 149,
+        "precio": 47.06
+      },
+      {
+        "item": "I00009",
+        "cantidad": 192,
+        "precio": 199.04
+      },
+      {
+        "item": "I00010",
+        "cantidad": 225,
+        "precio": 20.8
+      },
+      {
+        "item": "I00011",
+        "cantidad": 136,
+        "precio": 117.56
+      },
+      {
+        "item": "I00012",
+        "cantidad": 128,
+        "precio": 267.88
+      },
+      {
+        "item": "A00001",
+        "cantidad": 39,
+        "precio": 18.32
+      },
+      {
+        "item": "A00002",
+        "cantidad": 86,
+        "precio": 100.6
+      },
+      {
+        "item": "A00003",
+        "cantidad": 154,
+        "precio": 335.33
+      },
+      {
+        "item": "A00004",
+        "cantidad": 152,
+        "precio": 285.75
+      },
+      {
+        "item": "A00005",
+        "cantidad": 178,
+        "precio": 122.67
+      },
+      {
+        "item": "A00006",
+        "cantidad": 43,
+        "precio": 301.46
+      },
+      {
+        "item": "C00001",
+        "cantidad": 67,
+        "precio": 387.02
+      },
+      {
+        "item": "C00002",
+        "cantidad": 177,
+        "precio": 8.43
+      },
+      {
+        "item": "C00003",
+        "cantidad": 118,
+        "precio": 426.2
+      },
+      {
+        "item": "C00004",
+        "cantidad": 142,
+        "precio": 343.15
+      },
+      {
+        "item": "C00005",
+        "cantidad": 120,
+        "precio": 181.94
+      },
+      {
+        "item": "C00006",
+        "cantidad": 35,
+        "precio": 86.49
+      },
+      {
+        "item": "C00007",
+        "cantidad": 223,
+        "precio": 487.52
+      },
+      {
+        "item": "C00008",
+        "cantidad": 96,
+        "precio": 175.53
+      },
+      {
+        "item": "C00009",
+        "cantidad": 250,
+        "precio": 53.59
+      },
+      {
+        "item": "C00010",
+        "cantidad": 136,
+        "precio": 50.9
+      },
+      {
+        "item": "P10001",
+        "cantidad": 153,
+        "precio": 411.54
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 8,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 201,
+        "precio": 313.28
+      },
+      {
+        "item": "I00002",
+        "cantidad": 238,
+        "precio": 17.56
+      },
+      {
+        "item": "I00003",
+        "cantidad": 121,
+        "precio": 138.9
+      },
+      {
+        "item": "I00004",
+        "cantidad": 170,
+        "precio": 106.82
+      },
+      {
+        "item": "I00005",
+        "cantidad": 183,
+        "precio": 384.1
+      },
+      {
+        "item": "I00006",
+        "cantidad": 130,
+        "precio": 331.32
+      },
+      {
+        "item": "I00007",
+        "cantidad": 178,
+        "precio": 437.34
+      },
+      {
+        "item": "I00008",
+        "cantidad": 98,
+        "precio": 48.55
+      },
+      {
+        "item": "I00009",
+        "cantidad": 14,
+        "precio": 199.65
+      },
+      {
+        "item": "I00010",
+        "cantidad": 150,
+        "precio": 20.12
+      },
+      {
+        "item": "I00011",
+        "cantidad": 128,
+        "precio": 116.38
+      },
+      {
+        "item": "I00012",
+        "cantidad": 104,
+        "precio": 254.56
+      },
+      {
+        "item": "A00001",
+        "cantidad": 204,
+        "precio": 17.97
+      },
+      {
+        "item": "A00002",
+        "cantidad": 102,
+        "precio": 97.03
+      },
+      {
+        "item": "A00003",
+        "cantidad": 216,
+        "precio": 323.03
+      },
+      {
+        "item": "A00004",
+        "cantidad": 98,
+        "precio": 274.16
+      },
+      {
+        "item": "A00005",
+        "cantidad": 205,
+        "precio": 117.17
+      },
+      {
+        "item": "A00006",
+        "cantidad": 174,
+        "precio": 301.4
+      },
+      {
+        "item": "C00001",
+        "cantidad": 133,
+        "precio": 373.72
+      },
+      {
+        "item": "C00002",
+        "cantidad": 103,
+        "precio": 7.74
+      },
+      {
+        "item": "C00003",
+        "cantidad": 156,
+        "precio": 388.08
+      },
+      {
+        "item": "C00004",
+        "cantidad": 113,
+        "precio": 364.44
+      },
+      {
+        "item": "C00005",
+        "cantidad": 123,
+        "precio": 164.42
+      },
+      {
+        "item": "C00006",
+        "cantidad": 48,
+        "precio": 81.96
+      },
+      {
+        "item": "C00007",
+        "cantidad": 180,
+        "precio": 504.36
+      },
+      {
+        "item": "C00008",
+        "cantidad": 125,
+        "precio": 181.54
+      },
+      {
+        "item": "C00009",
+        "cantidad": 95,
+        "precio": 47.18
+      },
+      {
+        "item": "C00010",
+        "cantidad": 251,
+        "precio": 55.93
+      },
+      {
+        "item": "P10001",
+        "cantidad": 132,
+        "precio": 429.66
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 9,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 35,
+        "precio": 317.29
+      },
+      {
+        "item": "I00002",
+        "cantidad": 78,
+        "precio": 16.31
+      },
+      {
+        "item": "I00003",
+        "cantidad": 172,
+        "precio": 147.94
+      },
+      {
+        "item": "I00004",
+        "cantidad": 126,
+        "precio": 117.67
+      },
+      {
+        "item": "I00005",
+        "cantidad": 186,
+        "precio": 345.2
+      },
+      {
+        "item": "I00006",
+        "cantidad": 2,
+        "precio": 358.71
+      },
+      {
+        "item": "I00007",
+        "cantidad": 123,
+        "precio": 448.34
+      },
+      {
+        "item": "I00008",
+        "cantidad": 199,
+        "precio": 47.23
+      },
+      {
+        "item": "I00009",
+        "cantidad": 99,
+        "precio": 208.14
+      },
+      {
+        "item": "I00010",
+        "cantidad": 170,
+        "precio": 18.7
+      },
+      {
+        "item": "I00011",
+        "cantidad": 90,
+        "precio": 113.41
+      },
+      {
+        "item": "I00012",
+        "cantidad": 118,
+        "precio": 271.72
+      },
+      {
+        "item": "A00001",
+        "cantidad": 63,
+        "precio": 19.07
+      },
+      {
+        "item": "A00002",
+        "cantidad": 198,
+        "precio": 108.63
+      },
+      {
+        "item": "A00003",
+        "cantidad": 122,
+        "precio": 310.87
+      },
+      {
+        "item": "A00004",
+        "cantidad": 153,
+        "precio": 279.25
+      },
+      {
+        "item": "A00005",
+        "cantidad": 125,
+        "precio": 108.22
+      },
+      {
+        "item": "A00006",
+        "cantidad": 32,
+        "precio": 309.64
+      },
+      {
+        "item": "C00001",
+        "cantidad": 19,
+        "precio": 422.54
+      },
+      {
+        "item": "C00002",
+        "cantidad": 123,
+        "precio": 8.15
+      },
+      {
+        "item": "C00003",
+        "cantidad": 188,
+        "precio": 412.62
+      },
+      {
+        "item": "C00004",
+        "cantidad": 84,
+        "precio": 357.56
+      },
+      {
+        "item": "C00005",
+        "cantidad": 175,
+        "precio": 163.74
+      },
+      {
+        "item": "C00006",
+        "cantidad": 56,
+        "precio": 76.3
+      },
+      {
+        "item": "C00007",
+        "cantidad": 72,
+        "precio": 461.56
+      },
+      {
+        "item": "C00008",
+        "cantidad": 138,
+        "precio": 159.42
+      },
+      {
+        "item": "C00009",
+        "cantidad": 68,
+        "precio": 50.52
+      },
+      {
+        "item": "C00010",
+        "cantidad": 117,
+        "precio": 49.12
+      },
+      {
+        "item": "P10001",
+        "cantidad": 131,
+        "precio": 449.25
+      }
+    ]
+  },
+  {
+    "anio": 2025,
+    "mes": 10,
+    "ventas": [
+      {
+        "item": "I00001",
+        "cantidad": 102,
+        "precio": 339.8
+      },
+      {
+        "item": "I00002",
+        "cantidad": 69,
+        "precio": 17.28
+      },
+      {
+        "item": "I00003",
+        "cantidad": 75,
+        "precio": 142.37
+      },
+      {
+        "item": "I00004",
+        "cantidad": 156,
+        "precio": 114.56
+      },
+      {
+        "item": "I00005",
+        "cantidad": 0,
+        "precio": 387.87
+      },
+      {
+        "item": "I00006",
+        "cantidad": 92,
+        "precio": 338.64
+      },
+      {
+        "item": "I00007",
+        "cantidad": 79,
+        "precio": 421.68
+      },
+      {
+        "item": "I00008",
+        "cantidad": 148,
+        "precio": 51.1
+      },
+      {
+        "item": "I00009",
+        "cantidad": 133,
+        "precio": 208.49
+      },
+      {
+        "item": "I00010",
+        "cantidad": 107,
+        "precio": 18.72
+      },
+      {
+        "item": "I00011",
+        "cantidad": 53,
+        "precio": 108.66
+      },
+      {
+        "item": "I00012",
+        "cantidad": 63,
+        "precio": 256.08
+      },
+      {
+        "item": "A00001",
+        "cantidad": 147,
+        "precio": 17.15
+      },
+      {
+        "item": "A00002",
+        "cantidad": 88,
+        "precio": 101.91
+      },
+      {
+        "item": "A00003",
+        "cantidad": 158,
+        "precio": 318.24
+      },
+      {
+        "item": "A00004",
+        "cantidad": 36,
+        "precio": 281.23
+      },
+      {
+        "item": "A00005",
+        "cantidad": 61,
+        "precio": 106.19
+      },
+      {
+        "item": "A00006",
+        "cantidad": 197,
+        "precio": 286.44
+      },
+      {
+        "item": "C00001",
+        "cantidad": 173,
+        "precio": 420.19
+      },
+      {
+        "item": "C00002",
+        "cantidad": 50,
+        "precio": 8.71
+      },
+      {
+        "item": "C00003",
+        "cantidad": 14,
+        "precio": 393.11
+      },
+      {
+        "item": "C00004",
+        "cantidad": 94,
+        "precio": 342.16
+      },
+      {
+        "item": "C00005",
+        "cantidad": 106,
+        "precio": 186.4
+      },
+      {
+        "item": "C00006",
+        "cantidad": 103,
+        "precio": 83.21
+      },
+      {
+        "item": "C00007",
+        "cantidad": 66,
+        "precio": 512.38
+      },
+      {
+        "item": "C00008",
+        "cantidad": 101,
+        "precio": 179.62
+      },
+      {
+        "item": "C00009",
+        "cantidad": 177,
+        "precio": 53.46
+      },
+      {
+        "item": "C00010",
+        "cantidad": 68,
+        "precio": 54.89
+      },
+      {
+        "item": "P10001",
+        "cantidad": 24,
+        "precio": 437.1
+      }
+    ]
+  }
+]
