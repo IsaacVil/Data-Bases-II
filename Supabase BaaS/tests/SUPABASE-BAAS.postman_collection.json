@@ -1,0 +1,1124 @@
+{
+	"info": {
+		"_postman_id": "d22f08e5-e0d6-4acb-b997-3a7c089a1b3a",
+		"name": "SUPABASE-BAAS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45423570",
+		"_collection_link": "https://nataliaorozco-277370.postman.co/workspace/Natalia-Orozco's-Workspace~a65f733e-9c66-40a6-8aad-c8ba2835df9f/collection/45423570-d22f08e5-e0d6-4acb-b997-3a7c089a1b3a?action=share&source=collection_link&creator=45423570"
+	},
+	"item": [
+		{
+			"name": "logins",
+			"item": [
+				{
+					"name": "login - no autorizado",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"student@example.com\",\n  \"password\": \"ChangeMe123!\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://uprclolfplgjjxymduye.supabase.co/auth/v1/token?grant_type=password",
+							"protocol": "https",
+							"host": [
+								"uprclolfplgjjxymduye",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"auth",
+								"v1",
+								"token"
+							],
+							"query": [
+								{
+									"key": "grant_type",
+									"value": "password"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login - autorizado",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"student3@example.com\",\n  \"password\": \"ChangeMe123!\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://uprclolfplgjjxymduye.supabase.co/auth/v1/token?grant_type=password",
+							"protocol": "https",
+							"host": [
+								"uprclolfplgjjxymduye",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"auth",
+								"v1",
+								"token"
+							],
+							"query": [
+								{
+									"key": "grant_type",
+									"value": "password"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUDS",
+			"item": [
+				{
+					"name": "Category",
+					"item": [
+						{
+							"name": "Create",
+							"item": [
+								{
+									"name": "Create category - anon",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Prefer",
+												"value": "return=referential"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"Makeup\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/categories",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"categories"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Retrieve",
+							"item": [
+								{
+									"name": "Get categories - anon",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											}
+										],
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/categories?select=*",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"categories"
+											],
+											"query": [
+												{
+													"key": "select",
+													"value": "*"
+												},
+												{
+													"key": "name",
+													"value": "eq.Beauty",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Update",
+							"item": [
+								{
+									"name": "Update category - anon",
+									"request": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Prefer",
+												"value": "return=minimal"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"Outdoor Sports\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/categories?name=eq.Sports",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"categories"
+											],
+											"query": [
+												{
+													"key": "name",
+													"value": "eq.Sports"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Delete",
+							"item": [
+								{
+									"name": "Delete Category",
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											}
+										],
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/categories?name=eq.Outdoor Sports",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"categories"
+											],
+											"query": [
+												{
+													"key": "name",
+													"value": "eq.Outdoor Sports"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Country",
+					"item": [
+						{
+							"name": "Create",
+							"item": [
+								{
+									"name": "Create country - anon",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Prefer",
+												"value": "return=minimal"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{ \"name\": \"Guatemala\", \"code\": \"GTML\" }",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/countries",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"countries"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Retrieve",
+							"item": [
+								{
+									"name": "Get countries - anon",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											}
+										],
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/countries?select=*",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"countries"
+											],
+											"query": [
+												{
+													"key": "select",
+													"value": "*"
+												},
+												{
+													"key": "name",
+													"value": "eq.Costa Rica",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Update",
+							"item": [
+								{
+									"name": "Update countries - anon",
+									"request": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Prefer",
+												"value": "return=minimal"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{ \"name\": \"Mejico\" }",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/countries?name=eq.Mexico",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"countries"
+											],
+											"query": [
+												{
+													"key": "name",
+													"value": "eq.Mexico"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Delete",
+							"item": [
+								{
+									"name": "Delete country - anon",
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "apikey",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+											}
+										],
+										"url": {
+											"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/countries?name=eq.Mejico",
+											"protocol": "https",
+											"host": [
+												"uprclolfplgjjxymduye",
+												"supabase",
+												"co"
+											],
+											"path": [
+												"rest",
+												"v1",
+												"countries"
+											],
+											"query": [
+												{
+													"key": "name",
+													"value": "eq.Mejico"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Selects pedidos por el profe",
+			"item": [
+				{
+					"name": "Clientes por país",
+					"item": [
+						{
+							"name": "Clientes por país - anon",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/customers?select=*&country_code=eq.CR",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"customers"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*"
+										},
+										{
+											"key": "country_code",
+											"value": "eq.CR"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Clientes por país - user autorizado",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IkN2UHhlaXJQdmh4UnAvQ1oiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VwcmNsb2xmcGxnamp4eW1kdXllLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI3MDUyYTc4NC05NWVkLTQyY2ItYjBlYi1lMjEyN2RmOGQ1MzkiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU4ODY2NDE5LCJpYXQiOjE3NTg4NjI4MTksImVtYWlsIjoic3R1ZGVudDNAZXhhbXBsZS5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc1ODg2MjgxOX1dLCJzZXNzaW9uX2lkIjoiMzExNjM5OTEtMTlkYi00N2M3LWIzODItYjdmMWI4NzJmMjg4IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.AC1wPZ15b_RR7pD9c39MZrAgcgjflV00DCE20EdWixM",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/customers?select=*&country_code=eq.CR",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"customers"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*"
+										},
+										{
+											"key": "country_code",
+											"value": "eq.CR"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Clientes por país - user no autorizado",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IkN2UHhlaXJQdmh4UnAvQ1oiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VwcmNsb2xmcGxnamp4eW1kdXllLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlZGFlYTU4OC04NWQ1LTQ4OTEtYWNlNy01ZmU4NDc3ODA3NjUiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU4ODQxNDY0LCJpYXQiOjE3NTg4Mzc4NjQsImVtYWlsIjoic3R1ZGVudEBleGFtcGxlLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzU4ODM3ODY0fV0sInNlc3Npb25faWQiOiI0NmViNmM5My1jMzMzLTQ1N2ItYmUwNy04NGYwOWFiMjMwZGMiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.moa8VDxrSqUIHfHN_oxck0eKmhoJw21cnNrKyclawWA",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/customers?select=*&country_code=eq.CR",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"customers"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*"
+										},
+										{
+											"key": "country_code",
+											"value": "eq.CR"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Productos por categoría",
+					"item": [
+						{
+							"name": "Productos por categoría- anon",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/products?select=*&category_id=eq.1",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"products"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*"
+										},
+										{
+											"key": "category_id",
+											"value": "eq.1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Productos por categoría- user autorizado",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IkN2UHhlaXJQdmh4UnAvQ1oiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VwcmNsb2xmcGxnamp4eW1kdXllLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlZGFlYTU4OC04NWQ1LTQ4OTEtYWNlNy01ZmU4NDc3ODA3NjUiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU4ODY2MjcyLCJpYXQiOjE3NTg4NjI2NzIsImVtYWlsIjoic3R1ZGVudEBleGFtcGxlLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzU4ODYyNjcyfV0sInNlc3Npb25faWQiOiI3NmI5MGRiOS04YmJjLTQ3ZDgtOWRiMi0wZTI3OWZhNmJjNWYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.P2aQ2iKz-8kbWb_C0zYN7WKLfwJ1oGEZcCHyzV03PYA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/products?select=*&category_id=eq.1",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"products"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*"
+										},
+										{
+											"key": "category_id",
+											"value": "eq.1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Productos por categoría- user no autorizado",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IkN2UHhlaXJQdmh4UnAvQ1oiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VwcmNsb2xmcGxnamp4eW1kdXllLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlZGFlYTU4OC04NWQ1LTQ4OTEtYWNlNy01ZmU4NDc3ODA3NjUiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU4ODQxNDY0LCJpYXQiOjE3NTg4Mzc4NjQsImVtYWlsIjoic3R1ZGVudEBleGFtcGxlLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzU4ODM3ODY0fV0sInNlc3Npb25faWQiOiI0NmViNmM5My1jMzMzLTQ1N2ItYmUwNy04NGYwOWFiMjMwZGMiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.moa8VDxrSqUIHfHN_oxck0eKmhoJw21cnNrKyclawWA",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/products?select=*&category_id=eq.1",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"products"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*"
+										},
+										{
+											"key": "category_id",
+											"value": "eq.1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Invoices",
+					"item": [
+						{
+							"name": "Facturas con cliente embebido - anon",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/invoices?select=*,customers(*)",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"invoices"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*,customers(*)"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Detalle con producto embebido - anon",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/invoice_lines?select=*,products(*)",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"invoice_lines"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*,products(*)"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Detalle con producto embebido - user autorizado para CR y CatId 1",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IkN2UHhlaXJQdmh4UnAvQ1oiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VwcmNsb2xmcGxnamp4eW1kdXllLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI3MDUyYTc4NC05NWVkLTQyY2ItYjBlYi1lMjEyN2RmOGQ1MzkiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU4ODQxMzc3LCJpYXQiOjE3NTg4Mzc3NzcsImVtYWlsIjoic3R1ZGVudDNAZXhhbXBsZS5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc1ODgzNzc3N31dLCJzZXNzaW9uX2lkIjoiNTk3MjNiNzEtM2RmMi00ZTE3LTkyZDktNTc2OGJhZjIyYmMxIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.kWXIcSEGsA-6XJpdIBMhpCEJvRbgHdpCZdTJkiFWXHc",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/invoice_lines?select=*,products(*)",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"invoice_lines"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*,products(*)"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Detalle con producto embebido - user no autorizado",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apikey",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IkN2UHhlaXJQdmh4UnAvQ1oiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VwcmNsb2xmcGxnamp4eW1kdXllLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlZGFlYTU4OC04NWQ1LTQ4OTEtYWNlNy01ZmU4NDc3ODA3NjUiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU4ODY2MjQzLCJpYXQiOjE3NTg4NjI2NDMsImVtYWlsIjoic3R1ZGVudEBleGFtcGxlLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzU4ODYyNjQzfV0sInNlc3Npb25faWQiOiIzMDg5ZGY0MC1lMTc2LTRkZTItOTliMy04ZjVhNGZjMzllMTMiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.0dkxPAOSlguS8gwt4DmGjqvgQByHYaHKPW2LcP7HYY0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/invoice_lines?select=*,products(*)",
+									"protocol": "https",
+									"host": [
+										"uprclolfplgjjxymduye",
+										"supabase",
+										"co"
+									],
+									"path": [
+										"rest",
+										"v1",
+										"invoice_lines"
+									],
+									"query": [
+										{
+											"key": "select",
+											"value": "*,products(*)"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "invoices",
+			"item": [
+				{
+					"name": "new invoice - anon",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Prefer",
+								"value": "return=representation"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"customer_id\": 3,\n  \"invoice_date\": \"2025-09-25\",\n  \"total_amount\": 500\n}\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/invoices",
+							"protocol": "https",
+							"host": [
+								"uprclolfplgjjxymduye",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "invoice lines - anon",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Prefer",
+								"value": "return=representation"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n  {\n    \"invoice_id\": 1,\n    \"product_id\": 3,\n    \"quantity\": 2,\n    \"unit_price\": 50,\n    \"line_total\": 100\n  }\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/invoice_lines",
+							"protocol": "https",
+							"host": [
+								"uprclolfplgjjxymduye",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"invoice_lines"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RPC",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4MzQzODksImV4cCI6MjA3NDQxMDM4OX0.PUaFVnfhhJVWQvWjlmbBhiWvS5rQmOZD0pxED3kNiJU",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwcmNsb2xmcGxnamp4eW1kdXllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODgzNDM4OSwiZXhwIjoyMDc0NDEwMzg5fQ.jvtdZJCKHatf5vsawWAKzhL0fXyFRzwTqhE1CLC8BmY",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"customer_id\": 1,\n\"items\": [\n{ \"product_id\": 1, \"quantity\": 2 }, { \"product_id\": 5, \"quantity\": 1, \"unit_price\": 39.9 }\n\n]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://uprclolfplgjjxymduye.supabase.co/rest/v1/rpc/create_invoice",
+							"protocol": "https",
+							"host": [
+								"uprclolfplgjjxymduye",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"rpc",
+								"create_invoice"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
